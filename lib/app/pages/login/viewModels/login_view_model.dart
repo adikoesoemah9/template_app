@@ -11,12 +11,8 @@ class LoginViewModel extends BaseViewModel {
   LoginViewModel({
     required ref,
   }) : super(ref) {
-    _initData();
+    initData();
   }
 
-  bool isJBroken = false;
-
-  void _initData() async {
-    try {} catch (e) {}
-  }
+  void initData() async {}
 }

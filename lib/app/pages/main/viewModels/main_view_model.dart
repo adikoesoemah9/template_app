@@ -11,8 +11,8 @@ class MainViewModel extends BaseViewModel {
   MainViewModel({
     required ref,
   }) : super(ref) {
-    _init();
+    initData();
   }
 
-  void _init() async {}
+  void initData() async {}
 }

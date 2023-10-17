@@ -37,16 +37,17 @@ class SplashViewState extends BaseState<SplashView, SplashViewModel> {
 
   void _setUserViews() {
     _navigateTimer ??= Timer(const Duration(seconds: 2), () async {
-      _navigateToLogin();
+      _navigateToNextPage();
     });
   }
 
-  void _navigateToLogin() {
-    Future.delayed(const Duration(milliseconds: 500), () {
-      // LoginView.navigate(context);
-      MainView.navigate(context);
-    });
+  void _navigateToNextPage() {
+    MainView.navigate(context);
   }
+
+  // void _navigateToLogin() {
+  //   LoginView.navigate(context);
+  // }
 
   // void _navigateToMain() {
   //   MainView.navigate(context);

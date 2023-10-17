@@ -14,7 +14,5 @@ class HomeViewModel extends BaseViewModel {
     initData();
   }
 
-  initData() async {
-    try {} catch (e) {}
-  }
+  initData() async {}
 }

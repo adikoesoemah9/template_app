@@ -14,7 +14,5 @@ class ProfileViewModel extends BaseViewModel {
     initData();
   }
 
-  void initData() async {
-    try {} catch (e) {}
-  }
+  void initData() async {}
 }

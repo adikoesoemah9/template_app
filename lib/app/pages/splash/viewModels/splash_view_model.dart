@@ -11,8 +11,8 @@ class SplashViewModel extends BaseViewModel {
   SplashViewModel({
     required ref,
   }) : super(ref) {
-    _init();
+    initData();
   }
 
-  void _init() async {}
+  void initData() async {}
 }
